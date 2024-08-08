@@ -1,0 +1,232 @@
+const books = [
+  {
+    pdf:'https://static.tumblr.com/jh0avtj/8H2ooxkdk/dezesseis_luas_-_kami_garcia.pdf',
+    imgSrc: 'img/livro1.jpg',
+    title: 'Dezesseis Luas',
+    author: 'Margaret Stohl e Kami Garcia',
+    description: 'Na pequena Gatlin, com sabor à Nova Orleans, uma mágica poderosa e adormecida está prestes a ser libertada.',
+    resumo:'Na pequena Gatlin, com sabor à Nova Orleans, uma mágica poderosa e adormecida está prestes a ser libertada. E com a ajuda de dois adolescentes: Ethan Wate e Lena Duchaness. Ethan é um menino comum: parte do time de basquete, algumas paqueras, órfão de mãe, criado por um pai ausente e uma velha babá com talento para feitiçaria. Seu melhor amigo, carona oficial para todos os eventos, quer montar uma banda. Nada diferente de outros adolescentes locais. Mas é à noite que Ethan se destaca. Ao som de uma música que fala sobre dezesseis luas, dezesseis anos, uma menina de olhos verdes lhe aparece em sonhos. O problema é que quando acorda, marcas conseguidas no universo onírico estão em seu corpo. O mistério começa a se revelar quando Lena chega à cidade. Ao conhecê-la na escola, Ethan não tem dúvidas: é a menina de seus sonhos. Literalmente. Que o atormenta em pesadelos, a quem tenta salvar desesperadamente. O que se segue é uma história de almas gêmeas e segredos perigosos e obscuros. E Lena e Ethan precisam confiar um no outro para que possam vencer uma maldição com poder para acabar com tudo à sua volta. Será que eles vão conseguir?',
+  },
+  {
+    pdf:'https://static.tumblr.com/cehnl2g/rHfmuqq92/a_casa_de_hades_-_rick_riordan.pdf',
+    imgSrc: 'img/livro2.jpg',
+    title: 'A Casa de Hades',
+    author: 'Rick Riordan',
+    description: 'Hazel está diante de uma encruzilhada. As forças de Gaia estão decididas a impedi-los de avançar e alcançar seu objetivo',
+    resumo:'Hazel está diante de uma encruzilhada. As forças de Gaia estão decididas a impedi-los de avançar e alcançar seu objetivo: chegar à Casa de Hades, nas terras antigas, para resgatar Percy e Annabeth e fechar definitivamente as Portas da Morte, impedindo os monstros de retornarem ao mundo mortal.Ela e o que restou da tripulação do Argo II sabem o que precisa ser feito, mas todos os caminhos parecem levar ao fracasso de sua missão. Entretanto, eles precisam se decidir e agir rápido, pois o tempo está passando. A sanguinária Mãe Terra escolheu o dia primeiro de agosto para o seu despertar.'
+  },
+  {
+    pdf:'https://aestantedavida.wordpress.com/wp-content/uploads/2014/09/jogos-vorazes-livro-01.pdf',
+    imgSrc: 'img/livro3.jpg',
+    title: 'Jogos Vorazes',
+    author: 'Suzanne Collins',
+    description: 'Jogos Vorazes  se passa em um futuro pós-guerras e destruição, em um local antes conhecido como América do Norte e agora chamado de Panem',
+    resumo: 'Na abertura dos Jogos Vorazes, a organização não recolhe os corpos dos combatentes caídos e dá tiros de canhão até o final. Cada tiro, um morto. Onze tiros no primeiro dia. Treze jovens restaram, entre eles, Katniss. Para quem os tiros de canhão serão no dia seguinte?... Após o fim da América do Norte, uma nova nação chamada Panem surge. Formada por doze distritos, é comandada com mão de ferro pela Capital. Uma das formas com que demonstra seu poder sobre o resto do carente país é com Jogos Vorazes, uma competição anual transmitida ao vivo pela televisão, em que um garoto e uma garota de doze a dezoito anos de cada distrito são selecionados e obrigados a lutar até a morte! '
+  },
+  {
+    pdf:'https://pdfcoffee.com/04-as-cronicas-de-gelo-e-fogo-o-festim-dos-corvos-pdf-free.html',
+    imgSrc: 'img/livro4.jpg',
+    title: 'O Festim dos Corvos',
+    author: 'George R. R. Martin',
+    description: 'Enquanto os senhores do Norte lutam incessantemente uns contra os outros, a rainha regente Cersei tenta manter intacta a força dos leões em Porto Real.',
+    resumo:'O verão pode durar décadas. O inverno, toda uma vida. E a guerra dos tronos começou. Como Guardião do Norte, lorde Eddard Stark não fica feliz quando o rei Robert o proclama a nova Mão do Rei. Sua honra o obriga a aceitar o cargo e deixar seu posto em Winterfell para rumar para a corte, onde os homens fazem o que lhes convém, não o que devem... e onde um inimigo morto é algo a ser admirado'
+
+  },
+  {
+    pdf:'',
+    imgSrc: 'img/livro5.jpg',
+    title: 'Re:Zero Vol18',
+    author: 'Tappei Nagatsuki ',
+    description: 'Subaru e os demais, como uma forma de virar o jogo, fazem uma aposta arriscada para salvar as pessoas da cidade. Criariam a lenda do herói…!',
+    resumo:'Maravilhoso. Você é a dama ideal que eu desejava!” A operação de retomada do paço municipal terminou numa falha e Priestella, a cidade das comportas d’água, foi engolida por águas turvas em um instante. Subaru, saboreando uma derrota dolorosa, jurou se reerguer, mas as mãos vis dos Arcebispos Pecaminosos tornam a confusão mais profunda e mais perversa. Terror e insegurança roubam a sanidade das pessoas e bestas que não deveriam existir se esgueiram pela cidade. Em uma situação em que foram separados dos companheiros com os quais podiam contar, Subaru e os demais, como uma forma de virar o jogo, fazem uma aposta arriscada para salvar as pessoas da cidade. Criariam a lenda do herói…!'
+  },
+  {
+    pdf:'',
+    imgSrc: 'img/livro13.jpg',
+    title: 'Re:Zero Vol19',
+    author: 'Tappei Nagatsuki ',
+    description: 'A fim de libertar a cidade tomada pelos Arcebispos Pecaminosos, finalmente as candidatas ao trono e seus cavaleiros entrarão em conflito com tais Arcebispos!',
+    resumo:'Negarei tudo que tu és. Criatura ridícula.” A fim de libertar a cidade tomada pelos Arcebispos Pecaminosos, finalmente as candidatas ao trono e seus cavaleiros entrarão em conflito com tais Arcebispos! Para recuperar Emilia, levada por Regulus da Avareza, Subaru e Reinhard invadem o pior casamento de todos. Agora, a dupla de cavaleiros, o mais forte de todos e o mais fraco de todos, lutarão para derrotar o arbítrio da invencibilidade do furioso Regulus! Diante da luta do Diabólico Espadachim e da Santíssima Espadachim; do Oito Braços e do Grande Tigre; do Irretocável Cavaleiro e do Gula; e da Noiva Sangrenta e da Ira; as águas da cidade das comportas d’água flamejam branco…'
+
+  },
+  {
+    pdf:'',
+    imgSrc: 'img/livro6.jpg',
+    title: 'Fate/Zero Vol1',
+    author: 'Gen Urobochi',
+    description: 'Conheça toda a verdade por trás da lendária Quarta Guerra do Santo Graal.',
+    resumo:'A Guerra do Santo Graal – um duelo supremo travado entre sete grandes magos que invocam seus Espíritos Heroicos para disputar um poder inimaginável, capaz de realizar qualquer desejo. Conheça toda a verdade por trás da lendária Quarta Guerra do Santo Graal. Testemunhe o passado e a história dos personagens da franquia – aqui é onde tudo começou...' 
+  },
+  {
+    pdf:'',
+    imgSrc: 'img/livro7.jpg',
+    title: 'Re:Zero Vol20',
+    author: 'Tappei Nagatsuki',
+    description: 'Os Arcebispos Pecaminosos da Avareza e da Ira caíram e, ainda assim, os combates continuam na cidade das comportas d’água',
+    resumo:'“Theresia, você é bela. E, portanto, não deve ficar aqui.” Os Arcebispos Pecaminosos da Avareza e da Ira caíram e, ainda assim, os combates continuam na cidade das comportas d’água. Observados por uma lua prateada fria, as lutas dos companheiros em cada lugar soltam faíscas! A fome infindável dos Gulas, a excitação insatisfazível da Luxúria, o espírito de combate inapagável do Oito Braços e o carma sem término da Santíssima Espadachim ameaçam a paz da cidade, fazendo com que as chapas da candidatura ao trono fiquem em desvantagem uma após a outra. O que mudará a situação de combate com altas chances de derrota é o juramento uma vez feito e a promessa com um amigo. E o Santíssimo Espadachim, tal qual uma chama tremulante…'
+  },
+  {
+    pdf:'https://pdfcoffee.com/05-as-cronicas-de-gelo-e-fogo-a-dana-dos-dragoes-george-r-r-martin-reediao-oficial-br-pdf-free.html',
+    imgSrc: 'img/livro8.jpg',
+    title: 'A Dança dos Dragões',
+    author: 'George R. R. Martin',
+    description: 'O futuro dos Sete Reinos ainda é incerto – novas ameaças e novos inimigos surgem a cada momento',
+    resumo:'É outono em Westeros, e a Guerra dos Cinco Reis parece finalmente entrar na reta final. Stannis Baratheon se instala no Norte e jura conquistar o apoio dos senhores da região para continuar sua luta pelo trono, embora seja atrapalhado pela invasão de homens de ferro em grande parte da costa.'
+
+  },
+  {
+    pdf:'https://aestantedavida.wordpress.com/wp-content/uploads/2014/09/jogos-vorazes-em-chamas-livro-02.pdf',
+    imgSrc: 'img/livro9.jpg',
+    title: 'Em Chamas',
+    author: 'Suzanne Collins',
+    description: 'Depois da improvável e inusitada vitória de Katniss Everdeen e Peeta Mellark nos últimos Jogos Vorazes, algo parece ter mudado para sempre em Panem',
+    resumo:'Depois da improvável e inusitada vitória de Katniss Everdeen e Peeta Mellark nos últimos Jogos Vorazes, algo parece ter mudado para sempre em Panem. Aqui e ali, distúrbios e agitações nos distritos dão sinais de que uma revolta é iminente. Katniss e Peeta, representantes do paupérrimo Distrito 12, não apenas venceram os Jogos, mas ridicularizaram o governo e conseguiram fazer todos – incluindo o próprio Peeta – acreditarem que são um casal apaixonado. A confusão na cabeça de Katniss não é menor do que a das ruas. Em meio ao turbilhão, ela pensa cada vez mais em seu melhor amigo, o jovem caçador Gale, mas é obrigada a fingir que o romance com Peeta é real. Já o governo parece especialmente preocupado com a influência que os dois adolescente vitoriosos – transformados em verdadeiros ídolos nacionais – podem ter na população. Por isso, existem planos especiais para mantê-los sob controle, mesmo que isso signifique forçá-los a lutar novamente. Apenas um sobrevive.' 
+  },
+  {
+    pdf:'',
+    imgSrc: 'img/livro10.jpg',
+    title: 'Re:Zero Vol21',
+    author: 'Tappei Nagatsuki',
+    description: 'A luta contra a Seita da Bruxa acabou, porém a cidade das comportas d’água ficou com marcas profundas',
+    resumo:'A luta contra a Seita da Bruxa acabou, porém a cidade das comportas d’água ficou com marcas profundas. Para salvar o cotidiano e as pessoas cujo nomes foram roubados, Subaru e seu grupo sai em viagem para terras remotas, visando chegar à torre do Sábio. As Dunas de Areia de Augria são um covil de bestas mágicas e um miasma denso paira no local. A chave para passar pelo mar de areia nunca explorado é a Domadora de Bestas… Há as irmãs demônio com lembranças perdidas e um espírito artificial que usa o nome da bruxa. E, por fim, com o Irretocável Cavaleiro de nome perdido, o grupo enfrenta a Torre de Vigília Plêiades!'  
+  },
+  {
+    pdf:'https://intrinseca.com.br/wp-content/uploads/2023/05/1oCAP_OOraculoOculto.pdf',
+    imgSrc: 'img/livro11.jpg',
+    title: 'O Oraculo Oculto',
+    author: 'Rick Riordan',
+    description: 'Depois de despertar a fúria de Zeus por causa da guerra com Gaia, Apolo é expulso do Olimpo e vai parar na Terra',
+    resumo:'Depois de despertar a fúria de Zeus por causa da guerra com Gaia, Apolo é expulso do Olimpo e vai parar na Terra, mais precisamente em uma caçamba de lixo em um beco sujo de Nova York. Fraco e desorientado, ele agora é Lester Papadopoulos, um adolescente mortal com cabelo encaracolado, espinhas e sem abdome tanquinho. Sem seus poderes, a divindade de quatro mil anos terá que descobrir como sobreviver no mundo moderno e o que fazer para cair novamente nas graças de Zeus.'  
+  },
+  {
+    pdf:'https://clubdelivros.wordpress.com/wp-content/uploads/2013/09/percy-jackson-e-os-olimpianos_-o-ladrao-de-raios-vol-1-rick-riordan.pdf',
+    imgSrc: 'img/livro12.jpg',
+    title: 'Percy Jackson E o Ladrão de Raios',
+    author: 'Rick Riordan',
+    description: ' Um artefato precioso foi roubado do Monte Olimpo e Percy é o principal suspeito. ',
+    resumo:'Vários acidentes e revelações inexplicáveis afastam Percy de Nova York, sua cidade, e o lançam em um campo de treinamento muito especial, onde ele é orientado para enfrentar uma missão que envolve humanos diferentes ― metade deuses, metade homens ―, além de seres mitológicos. O raio-mestre de Zeus foi roubado, e é Percy quem deve resgatá-lo. Com a ajuda de novos amigos ― um sátiro e a filha de uma deusa ―, Percy tem dez dias para reaver o raio, que representa a destruição original, e restabelecer a paz no Olimpo. Para conseguir isso, ele precisará fazer mais que capturar um ladrão. Terá que lidar com o pai que o abandonou, resolver uma profecia proposta pelo Oráculo e desvendar uma traição mais ameaçadora que a fúria dos deuses.'
+  },
+  {
+    pdf:'https://aestantedavida.wordpress.com/wp-content/uploads/2014/09/jogos-vorazes-a-esperanc3a7a-livro-03.pdf',
+    imgSrc: 'img/livro14.jpg',
+    title: 'A Esperança',
+    author: 'Suzanne Collins',
+    description: 'Depois de sobreviver duas vezes à crueldade de uma arena projetada para destruí-la, Katniss acreditava que não precisaria mais lutar.',
+    resumo:'Depois de sobreviver duas vezes à crueldade de uma arena projetada para destruí-la, Katniss acreditava que não precisaria mais lutar. Mas as regras do jogo mudaram: com a chegada dos rebeldes do lendário Distrito 13, enfim é possível organizar uma resistência. Começou a revolução.A coragem de Katniss nos jogos fez nascer a esperança em um país disposto a fazer de tudo para se livrar da opressão. E agora, contra a própria vontade, ela precisa assumir seu lugar como símbolo da causa rebelde. Ela precisa virar o Tordo.'
+  },
+  {
+    pdf:'',
+    imgSrc: 'img/livro15.jpg',
+    title: 'Rezero Vol22',
+    author: 'Tappei Nagatsuki',
+    description: 'Subaru Natsuki e seu grupo, buscando o conhecimento do Sábio, o qual é considerado onisciente, enfrentaram as inexploradas Dunas de Areia de Augria. ',
+    resumo:'“Se quem está procurando é Shaula, mestre, sou eu.” Subaru Natsuki e seu grupo, buscando o conhecimento do Sábio, o qual é considerado onisciente, enfrentaram as inexploradas Dunas de Areia de Augria. Após superarem várias dificuldades com a ajuda dos companheiros e inúmeras mortes, o que os recepcionou foi um sábio muito diferente das lendas. A sábia Shaula, que admira Subaru e o chama de “mestre”, começou a falar animadamente com o grupo confuso. Era sobre uma competição de inteligência contra o sábio, a fim de obter o conhecimento pleno que buscavam. Era um convite para enfrentarem os exames da Grande Biblioteca Plêiades… “Se divirtam aqui, comigo… por dias, anos e séculos!” O vigésimo segundo ato de vaidade e glória – o que se estilhaçará primeiro será o orgulho do cavaleiro, as amizades ou os amores?',
+    pdf:'',
+  },
+  {
+    pdf: 'https://static.tumblr.com/cehnl2g/et7mstt2u/dezessete_luas-livro_2.pdf',
+    imgSrc: 'img/livro16.jpg',
+    title: 'Dezesste Luas',
+    author: 'Margaret Stohl e Kami Garcia',
+    description: 'Ethan Wate e Lena Duchaness escaparam por pouco de serem reclamados pelas trevas, mas a vitória teve um sabor amargo. Lena vive a dor e o sentimento de culpa pela morte do tio Maicon e começa a se afastar de Ethan.',
+    resumo:' Lena vive a dor e o sentimento de culpa pela morte do tio Maicon e começa a se afastar de Ethan. Antes que este consiga compreender o que está se passando, ela foge com a prima Ridley. Auxiliado pelo amigo Link, Ethan vaga pelos túneis subterrâneos da cidade, um mundo secreto, escondido á vista de todos, determinado a salvar a amada. Como no primeiro volume da série, o presente também é intercalado por uma série de visões enigmáticas revelando acontecimentos passados, que dão pistas para o futuro. Mais segredos são revelados, peças de um quebra-cabeças que liga toda a trama. A relação entre Ethan e Lena é estirada, esgarçada e por fim quebrada. Apenas para se tornar mais forte. Mas antes, porém, os jovens amantes precisam passar por várias provações e aventuras.',
+ }
+  
+];
+
+// Função para adicionar os livros á página
+function addBooksToPage(filteredBooks = books) {
+  const bookList = document.querySelector('.book-list');
+
+  bookList.innerHTML = '';
+
+  filteredBooks.forEach(book => {
+    const bookElement = document.createElement('div');
+    bookElement.classList.add('book');
+
+    bookElement.innerHTML = `
+        <div class="flex">
+          <img src="${book.imgSrc}" alt="${book.title}">
+          <div>
+            <h3>${book.title}</h3>
+            <p>Autor: ${book.author}</p>
+            <p>Descrição: ${book.description}</p>
+            <a href="detailsBook.html?bookId=${book.title}"><button type="button">Ver Livros</button></a>
+          </div>
+        </div>
+      `;
+
+    bookList.appendChild(bookElement);
+  });
+}
+
+function wiewDataForm() {
+  const form = document.getElementById('contactForm')
+  const formMessage = document.getElementById('formMessage')
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault(); //evita o envio padrão do formulário
+
+    //captura os dados do formulário  
+    const formData = new FormData(form);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+
+    //Constroi a mensagem a ser exibida na tag <p> com id 'formMessage'
+    const messageText = `Nome: ${name}<br>Email: ${email}<br><Mensagem: $(menssage)`;
+
+    //Exibe a mensagem dentro do elemento <p id'formMessage'>
+    formMessage.innerHTML = messageText;
+
+    //Limpa o formulário após exibir a mensagem(opcional)
+    form.reset();
+
+  });
+}
+
+function searchBooks(){
+  const searchInput = document.getElementById('searchInput');
+  const query = searchInput.value.toLowerCase();
+
+  const filteredBooks= books.filter(book =>
+   book.title.toLowerCase().includes(query)
+  )
+
+  addBooksToPage(filteredBooks);
+
+}
+
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+function adddetailsBook() {
+  const bookId = getQueryParam('bookId');
+
+  const bookData = books.find(book => book.title === bookId);
+
+  if (bookData) {
+    document.getElementById('bookImage').src = bookData.imgSrc;
+    document.getElementById('bookTitle').textContent = `Livro ${bookData.title}`;
+    document.getElementById('bookAuthor').textContent = `Author ${bookData.author}`;
+    document.getElementById('bookDescription').textContent = `Resumo ${bookData.resumo}`;
+
+
+    const readBookButton= document.getElementById('readbookButton');
+    readBookButton.href = bookData.pdf;
+
+  } else {
+    document.getElementById('bookTitle').textContent = "Livro não encontrado";
+  }
+}
+document.addEventListener('DOMContentLoaded', addBooksToPage);
+document.addEventListener('DOMContentLoaded', wiewDataForm);
+document.addEventListener('DOMContentLoaded', adddetailsBook);
+document.addEventListener('DOMContentLoaded', function(){
+
+  addBooksToPage();
+
+  document.getElementById('searchInput').addEventListener('input', searchBooks);
+});
