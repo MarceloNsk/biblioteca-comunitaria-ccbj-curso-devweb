@@ -1,0 +1,240 @@
+body {
+    font-family: Arial,sans-serif;
+    line-height: 1,6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://distrito.me/wp-content/uploads/2022/05/10-livros-sobre-inovacao-para-ler-em-2022.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: "";
+    position:absolute ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+.formgroup{
+    margin-bottom: 15px;
+}
+
+.label{
+    display: block;
+    font-weight: bold;
+}
+
+.imput[type="text"],
+.imput[type="email"],
+textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(312 9% 3%);
+    color: fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: hwb(65 7% 9%);
+}
+
+
+#formMessage{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.header-main {
+    background-color: #14c4f5;
+    padding: 10px 20px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+header{
+    background: hsl(0, 0%, 0%);
+    color: hwb(0 99% 1%);
+    padding: 20px 0;
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+@keyframes blink {
+    0% {border-right: 2px solid transparent; }
+    100% {border-right: 2px solid black; }
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    white-space:nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+}
+
+header nav {
+    float: right;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav ul li a{
+    color: #f2f3ed;
+    font-weight: bold;
+}
+
+.book-details {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: hwb(0 88% 9%);
+    display: flex;
+    align-items: left;
+}
+
+.book-details img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.book-details h1 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration:none;
+}
+
+#container-book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.btn-voltar {
+    background-color:hsl(305, 87%, 38%) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-voltar:hover {
+    background-color: #e7ff13;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn-voltar:active{
+    transform: scale(0 95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+    
+main{
+       padding: 20px 0;
+       
+    }
+
+
+.book-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.book{
+    background: rgb(31, 237, 227);
+    padding: 10px;
+    border: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 15px;
+}
+
+.book img{
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+
+footer{
+    background: hsl(0, 0%, 1%);
+    color: #f2f3ed;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .book-list{
+        grid-template-columns: 1fr;
+    }
+
+    .book-details {
+        flex-direction: column;
+    }
+    
+    .book-details img{
+        margin-bottom: 25px;
+    }
+
+    .flex{
+        margin: 0px 20px;
+    }
+}
+
+
